@@ -32,6 +32,15 @@ ul {
   padding: 0;
 }
 
+.food-image {
+  display: block;
+  margin: 0 auto; /* Membuat gambar berada di tengah secara horizontal */
+  max-width: 100%; /* Maksimum lebar gambar adalah lebar kotak paragraf */
+  height: auto; /* Menyesuaikan tinggi gambar secara proporsional */
+}
+
+
+
 .pesan-button {
   display: block;
   margin: 0 auto;
@@ -48,3 +57,4 @@ ul {
 .pesan-button:hover {
   background-color: #45a049; /* Warna background tombol hijau saat dihover */
 }
+
