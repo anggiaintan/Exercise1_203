@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color:burlywood; /* Warna background cream */
+  background-color: burlywood; /* Warna background cream */
 }
 
 .container {
@@ -32,18 +32,36 @@ ul {
   padding: 0;
 }
 
-.food-image {
+.warung-image {
   display: block;
-  margin: 0 auto; /* Membuat gambar berada di tengah secara horizontal */
+  margin: 20px auto; /* Membuat gambar berada di tengah secara horizontal */
   max-width: 100%; /* Maksimum lebar gambar adalah lebar kotak paragraf */
   height: auto; /* Menyesuaikan tinggi gambar secara proporsional */
 }
 
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
 
+.menu-table th, .menu-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.menu-table th {
+  background-color: #f2f2f2;
+}
+
+.menu-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
 
 .pesan-button {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto; /* Membuat tombol berada di tengah */
   padding: 10px 20px;
   background-color: #4CAF50; /* Warna background tombol hijau */
   color: #fff;
@@ -57,4 +75,3 @@ ul {
 .pesan-button:hover {
   background-color: #45a049; /* Warna background tombol hijau saat dihover */
 }
-
